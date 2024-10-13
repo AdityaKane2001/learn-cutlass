@@ -1,0 +1,10 @@
+Consolidate compiler generated dependencies of target cuda
+[ 50%] Building CUDA object CMakeFiles/cuda.dir/src/main.cu.o
+/workspace/akane/learn-cutlass/src/cute.cuh(35): warning #177-D: variable "B1" was declared but never referenced
+      auto B1 = make_layout(make_shape(5, 6), make_stride(1, 5));
+           ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+[100%] Linking CUDA executable cuda
+[100%] Built target cuda
